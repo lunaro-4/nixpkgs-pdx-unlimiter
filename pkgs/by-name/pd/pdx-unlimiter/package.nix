@@ -20,7 +20,7 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "pdx-unlimiter";
-  version = "2.13.17";
+  version = "3.5.6";
 
   src = fetchFromGitHub {
     owner = "crschnick";
